@@ -17,7 +17,6 @@ func isSameTree2() async throws {
 	#expect(solution.isSameTree(p, q) == false)
 }
 
-
 @Test
 func isSameTree3() async throws {
 	let p = TreeNode(1, TreeNode(2), TreeNode(1))
