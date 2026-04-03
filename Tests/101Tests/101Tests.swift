@@ -1,8 +1,7 @@
 import Testing
 @testable import _01
 
-@Test
-func isSymmetric1() async throws {
+@Test func isSymmetric1() async throws {
 	let tree = TreeNode(1,
 						TreeNode(2,
 								 TreeNode(3),
@@ -14,8 +13,7 @@ func isSymmetric1() async throws {
 	#expect(solution.isSymmetric(tree) == true)
 }
 
-@Test
-func isSymmetric2() async throws {
+@Test func isSymmetric2() async throws {
 	let tree = TreeNode(1,
 						TreeNode(2,
 								 nil,
@@ -27,8 +25,7 @@ func isSymmetric2() async throws {
 	#expect(solution.isSymmetric(tree) == false)
 }
 
-@Test
-func isSymmetric3() async throws {
+@Test func isSymmetric3() async throws {
 	let tree = TreeNode(1,
 						TreeNode(2,
 								 TreeNode(3),

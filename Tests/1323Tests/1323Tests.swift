@@ -1,8 +1,7 @@
 import Testing
 @testable import _323
 
-@Test
-func maximum69Number1() async throws {
+@Test func maximum69Number1() async throws {
 	#expect(Solution().maximum69Number(6) == 9)
 	#expect(Solution().maximum69Number(9) == 9)
 	#expect(Solution().maximum69Number(66) == 96)
