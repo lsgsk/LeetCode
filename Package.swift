@@ -5,6 +5,7 @@ let package = Package(
 	name: "LeetCode",
 	products: [
 		.executable(name: "1", targets: ["1"]),
+		.executable(name: "28", targets: ["28"]),
 		.executable(name: "100", targets: ["100"]),
 		.executable(name: "101", targets: ["101"]),
 		.executable(name: "102", targets: ["102"]),
@@ -15,6 +16,7 @@ let package = Package(
 	],
 	targets: [
 		.executableTarget(name: "1"),
+		.executableTarget(name: "28"),
 		.executableTarget(name: "100"),
 		.executableTarget(name: "101"),
 		.executableTarget(name: "102"),
@@ -23,6 +25,7 @@ let package = Package(
 		.executableTarget(name: "1323"),
 		.executableTarget(name: "1324"),
 		.testTarget(name: "1Tests", dependencies: ["1"]),
+		.testTarget(name: "28Tests", dependencies: ["28"]),
 		.testTarget(name: "100Tests", dependencies: ["100"]),
 		.testTarget(name: "101Tests", dependencies: ["101"]),
 		.testTarget(name: "102Tests", dependencies: ["102"]),
