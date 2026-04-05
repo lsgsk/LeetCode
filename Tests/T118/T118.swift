@@ -1,5 +1,5 @@
 import Testing
-@testable import _18
+@testable import E118
 
 @Test func generate() async throws {
 	#expect(Solution().generate(0) == [])

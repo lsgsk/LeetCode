@@ -1,5 +1,5 @@
 import Testing
-@testable import _0
+@testable import E70
 
 @Test func climbStairs() async throws {
 	#expect(Solution().climbStairs(-1) == -1)

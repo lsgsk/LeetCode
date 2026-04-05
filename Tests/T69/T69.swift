@@ -1,5 +1,5 @@
 import Testing
-@testable import _9
+@testable import E69
 
 @Test func mySqrt() async throws {
 	#expect(Solution().mySqrt(0) == 0)

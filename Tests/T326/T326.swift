@@ -1,5 +1,5 @@
 import Testing
-@testable import _26
+@testable import E326
 
 @Test func isPowerOfThree() async throws {
 	#expect(Solution().isPowerOfThree(3) == true)

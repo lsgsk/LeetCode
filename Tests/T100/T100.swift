@@ -1,5 +1,5 @@
 import Testing
-@testable import _00
+@testable import E100
 
 @Test func isSameTree1() async throws {
 	let p = TreeNode(1, TreeNode(2), TreeNode(3))

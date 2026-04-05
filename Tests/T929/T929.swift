@@ -1,5 +1,5 @@
 import Testing
-@testable import _29
+@testable import E929
 
 @Test func numUniqueEmails1() async throws {
 	let emails = ["test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"]

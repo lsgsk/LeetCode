@@ -1,5 +1,5 @@
 import Testing
-@testable import _01
+@testable import E101
 
 @Test func isSymmetric1() async throws {
 	let tree = TreeNode(1,

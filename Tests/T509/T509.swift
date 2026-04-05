@@ -1,5 +1,5 @@
 import Testing
-@testable import _09
+@testable import E509
 
 @Test func fib() async throws {
 	#expect(Solution().fib(-1) == -1)

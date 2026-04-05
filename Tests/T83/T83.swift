@@ -1,5 +1,5 @@
 import Testing
-@testable import _3
+@testable import E83
 
 @Test func deleteDuplicates() async throws {
 	#expect(Solution().deleteDuplicates(ListNode(1, ListNode(1, ListNode(2)))) == ListNode(1, ListNode(2)))

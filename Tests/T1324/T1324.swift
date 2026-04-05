@@ -1,5 +1,5 @@
 import Testing
-@testable import _324
+@testable import E1324
 
 @Test func printVertically() async throws {
 	#expect(Solution().printVertically("HOW ARE YOU") == ["HAY","ORO","WEU"])

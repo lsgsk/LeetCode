@@ -1,5 +1,5 @@
 import Testing
-@testable import _8
+@testable import E28
 
 @Test func strStr() async throws {
 	#expect(Solution().strStr("sadbutsad", "sad") == 0)

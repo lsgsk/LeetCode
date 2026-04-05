@@ -1,5 +1,5 @@
 import Testing
-@testable import `_`
+@testable import E1
 
 @Test func twoSum() async throws {
 	#expect(Solution().twoSum([2,7,11,15], 9) == [0, 1])

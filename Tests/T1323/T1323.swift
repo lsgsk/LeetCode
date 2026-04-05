@@ -1,5 +1,5 @@
 import Testing
-@testable import _323
+@testable import E1323
 
 @Test func maximum69Number1() async throws {
 	#expect(Solution().maximum69Number(6) == 9)
