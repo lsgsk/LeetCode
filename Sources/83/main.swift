@@ -41,12 +41,3 @@ class Solution
 		return head
 	}
 }
-
-
-//func deleteDuplicates(_ head: ListNode?) -> ListNode? {
-//	guard head == nil else { return nil }
-//	
-//	if deleteDuplicates(head?.next) {
-//		
-//	}
-//}
